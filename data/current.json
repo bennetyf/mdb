@@ -1,0 +1,39 @@
+{
+    "sydney":{
+        "_id":"sydney",
+        "data":[
+            {
+                "app_temp":     "22.9",
+                "city_name":    "Sydney",
+                "datetime":     "2018-11-11:23",
+                "weather":      {"description": "Scattered clouds"}
+            }
+        ]
+    },
+
+    "brisbane":{
+        "_id":"brisbane",
+        "data":[
+            {
+                "app_temp":     "26",
+                "city_name":    "Brisbane",
+                "datetime":     "2018-11-11:23",
+                "weather":      {"description":"Clear sky"}
+            }
+        ]
+    },
+
+    "melbourne":{
+        "_id":"melbourne",
+        "data": [
+            {
+                "app_temp":     "25.4",
+                "city_name":    "Melbourne",
+                "datetime":     "2018-11-11:23",
+                "weather":      {"description": "Clear sky"}
+            }
+        ]
+    },
+    "citylist":["sydney", "brisbane", "melbourne"],
+    "length": "3"
+}
